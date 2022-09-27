@@ -1,3 +1,4 @@
+(function () {
 let ul = document.getElementById('ulId');
 let ulAtt = ul.attributes
 const arrAttName = []
@@ -24,3 +25,4 @@ console.log(ul.firstElementChild.hasAttribute('data-my-name'));
 // Удалить у тега ul атрибут ‘data-dog-tail‘
 ul.removeAttribute('data-dog-tail')
 console.log(ul.hasAttribute('data-dog-tail'));
+})();
